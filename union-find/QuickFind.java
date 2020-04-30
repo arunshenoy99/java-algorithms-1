@@ -24,7 +24,7 @@ public class QuickFind
         int qid = id[q];
         for (int i = 0; i < id.length; i++)
         {
-            if (id[p] == pid)
+            if (id[i] == pid)
             {
                 id[p] = qid;
             }
