@@ -178,10 +178,6 @@ public class Percolation {
     // does the system percolate?
     public boolean percolates()
     {
-        if(numberOfOpenSites() == 0)
-        {
-            return false;
-        }
         if (n == 1)
         {
             return true;
